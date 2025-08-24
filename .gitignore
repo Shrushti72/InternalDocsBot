@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables & credentials
+.env
+credentials.json
+
+# Vector DB generated files
+vectorstore/faiss_index.bin
+vectorstore/metadata.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
